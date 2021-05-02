@@ -62,12 +62,15 @@ textarea {
   border: none;
   margin-top: 2vh;
   margin-bottom: 4vh;
+  background-color: var(--body);
   transition: 0.5s;
 }
 
 #btn-input:hover {
   cursor: pointer;
-  box-shadow: 5px 5px 20px 5px var(--secondary-color);
+  background-color: var(--footer);
+  color: white;
+  box-shadow: 5px 5px 20px 5px var(--footer);
 }
 
 h2 {
