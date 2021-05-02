@@ -10,7 +10,7 @@ btnInput.addEventListener('click', () => {
 });
 
 const URLgenerator = (text) => {
-  return `https://api.funtranslations.com/translate?text=${text}`;
+  return `https://api.funtranslations.com/translate/yoda.json?text=${text}`;
 };
 
 const translate = (text) => {
