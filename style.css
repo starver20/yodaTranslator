@@ -1,5 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+:root {
+  --body:#DBCFC6;
+  --footer: #A0C975;
+}
+
 body {
-  background-color: palevioletred;
+  background: url(/assets/yoda1.png);
+  background-repeat: no-repeat;
+  background-size: 30vw;
+  background-position: right;
   margin: 0px;
-  padding: 0px;
+  background-color: var(--body);
+  font-family: 'Orbitron', sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#header {
+  background-color: var(--body);
+  font-size: 3vw;
+  margin: 0px;
+  text-align: center;
+}
+
+#header-img{
+  width: 5vw;
+  align-self: flex-start;
+  padding-top: 1vh;
+}
+
+#intro {
+  padding-top: 0px;
+  margin-bottom: 0vh;
+  font-size: 1.8vw;
+  color: var(--secondary-color);
+  text-align: center;
+  padding:0px;
+}
+.content {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+textarea {
+  width: 40vw;
+  height: 15vh;
+}
+
+#btn-input {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  width: 20vw;
+  min-width: 70px;
+  height: 5vh;
+  border: none;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  transition: 0.5s;
+}
+
+#btn-input:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 20px 5px var(--secondary-color);
+}
+
+h2 {
+  font-size: 1.5vw;
+  margin-top: 0px;
+}
+
+#txt-output {
+  width: 40vw;
+  height: 15vh;
+  border: solid black 1px;
+  background-color: white;
+  overflow: scroll;
+}
+
+footer {
+  margin-top: 2vh;
+  width: 100%;
+  background-color: var(--footer);
+  color:white;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+h3 {
+  font-size: 2vw;
+  margin-bottom: 0px;
+}
+p {
+  font-size: 1.3vw;
+  margin-top: 0px;
+  padding: 0vh 15vw;
+  font-weight: 600;
+}
+
+span {
+font-size: 2.5vw;
+font-weight: 800;
+
+}
+
+@media (max-width: 964px) {
+  #header {
+    font-size: 4vh;
+  }
+
+#header-img{
+  width: 5vh;
+  align-self: flex-start;
+  padding-top: 1vh;
+}
+
+
+  #intro {
+    font-size: 2vh;
+  }
+  textarea {
+    width: 40vw;
+    height: 15vh;
+  }
+
+  #btn-input {
+    font-size: 2vh;
+  }
+
+  h2 {
+    font-size: 2.5vh;
+  }
+
+  h3 {
+    font-size: 2.5vh;
+  }
+  p {
+    font-size: 1.5vh;
+  }
+  span { 
+    font-size: 2.5vh"
+    
+    }
 }
