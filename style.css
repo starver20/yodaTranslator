@@ -48,6 +48,8 @@ header {
   margin-bottom: 2vh;
 }
 textarea {
+
+  padding:5px;
   width: 40vw;
   height: 15vh;
 }
@@ -56,17 +58,21 @@ textarea {
   font-family: 'Orbitron', sans-serif;
   font-size: 1.5vw;
   font-weight: 700;
-  width: 20vw;
+  width: 22vw;
+  padding:4px;
   min-width: 70px;
   height: 5vh;
   border: none;
   margin-top: 2vh;
   margin-bottom: 4vh;
   background-color: var(--body);
+  border: 1px solid black;
   transition: 0.5s;
 }
 
 #btn-input:hover {
+
+  border: none;
   cursor: pointer;
   background-color: var(--footer);
   color: white;
@@ -79,6 +85,7 @@ h2 {
 }
 
 #txt-output {
+  padding:5px;
   width: 40vw;
   height: 15vh;
   border: solid black 1px;
@@ -126,6 +133,10 @@ font-weight: 800;
 
   #intro {
     font-size: 2vh;
+  } 
+
+  #intro span {
+    font-size: 2vh;
   }
   textarea {
     width: 40vw;
@@ -133,7 +144,7 @@ font-weight: 800;
   }
 
   #btn-input {
-    font-size: 2vh;
+    font-size: 1.4vh;
   }
 
   h2 {
